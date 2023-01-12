@@ -4,7 +4,7 @@ def handle_event(shoes, day, weather):
         print('hello')
         if shoes == 'sneakers':
             raise
-        print('goodbye')  # Without this, missing branch
+        # print('goodbye')  # Without this, missing branch
     except Exception as e:
         print(e)
         if day == 'Tuesday':
